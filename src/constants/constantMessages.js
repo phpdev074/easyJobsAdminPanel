@@ -1,0 +1,1 @@
+export const LOGO = "https://kohinoorsethi.s3.ap-south-1.amazonaws.com/5747aa38-f0ad-49f0-b289-3e752f4301b3_Group 8749 1.png"

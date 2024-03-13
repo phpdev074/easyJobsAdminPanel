@@ -47,7 +47,6 @@ const PrivacyPolicy = () => {
         We may update our Privacy Policy from time to time. You are advised to
         review this Privacy Policy periodically for any changes.
       </p>
-      <p className="last-updated">Last updated: [Date]</p>
     </div>
   );
 };

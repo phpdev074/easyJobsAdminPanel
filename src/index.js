@@ -12,22 +12,22 @@ import LoginComponent from './Components/LoginComponents';
 import DashboardComponent from './Components/DashboardComponent';
 import UserComponent from './Components/UserComponents';
 const router = createBrowserRouter([
+  // {
+  //   path: "/",
+  //   element: <LoginComponent />,
+  // },
   {
-    path: "/",
-    element: <LoginComponent />,
-  },
-  {
-    path:"/privacy",
+    path:"/",
     element:<PrivacyPolicy />
   },
-  {
-    path:"/dashboard",
-    element:<DashboardComponent />
-  },
-  {
-    path:"/user",
-    element:<UserComponent />
-  }
+  // {
+  //   path:"/dashboard",
+  //   element:<DashboardComponent />
+  // },
+  // {
+  //   path:"/user",
+  //   element:<UserComponent />
+  // }
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
